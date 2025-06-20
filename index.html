@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mapa Turístico 3D de Orizaba, Veracruz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="cyber-container">
+        <div class="cyber-header">
+            <h1 class="cyber-title">MAPA TURÍSTICO</h1>
+            <h2 class="cyber-subtitle">CIUDAD DE ORIZABA, VERACRUZ</h2>
+            <div class="cyber-lights"></div>
+        </div>
+        <div class="map-3d-container">
+            <div id="map"></div>
+            <div class="cyber-overlay"></div>
+            <div class="holographic-effect"></div>
+        </div>
+        <div class="cyber-controls">
+            <div class="control-panel">
+                <span class="control-label">MODO 3D</span>
+                <label class="cyber-switch">
+                    <input type="checkbox" id="toggle3d">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
