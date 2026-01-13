@@ -1,4 +1,4 @@
-Este repositorio esta creado pensando en los lugares turisticos de la ciudad de Orizaba Veracruz 
+Este repositorio esta creado para mostrar los lugares turisticos de la ciudad de Orizaba Veracruz 
 el cual ayudara a cientos de turistas a conocer mas a ala ciudad y sus lugares turisticos,
 Por el momento esta aplicacion esta en proceso pero cuando termine sera una guia tanto 
 para locales y foraneos.....
